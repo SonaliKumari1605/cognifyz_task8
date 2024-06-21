@@ -1,0 +1,160 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.navbar {
+  position: fixed;
+}
+.navbar .list {
+  display: flex;
+  list-style-type: none;
+  gap: 16rem;
+  padding: 1.5rem 8rem;
+  align-items: center;
+  background-color: rgb(252, 162, 232);
+}
+.navbar .list button {
+  background-image: linear-gradient(90deg, rgb(121, 76, 245), rgb(59, 3, 112));
+  color: white;
+  border-radius: 1.6rem;
+  border: rgb(146, 105, 185);
+  padding: 1rem 1.5rem;
+  cursor: pointer;
+}
+.navbar .list button:hover {
+  background-image: linear-gradient(90deg, rgb(241, 102, 167), rgb(128, 0, 53));
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+#logo {
+  height: 4rem;
+}
+
+header img {
+  height: 40rem;
+}
+
+h1 {
+  font-size: 7rem;
+  text-align: center;
+  color: rgb(128, 0, 53);
+  padding: 1.5rem 8rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 9rem;
+  padding-top: 9rem;
+}
+
+h2 {
+  font-size: 7rem;
+  text-align: center;
+  color: rgb(128, 0, 53);
+  padding: 1.5rem 8rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.solar-defination {
+  font-size: 3rem;
+  text-align: justify;
+  padding: 1.5rem 8rem;
+}
+
+.solar-defination:hover {
+  color: rgb(124, 30, 1);
+}
+
+.planet-container1 {
+  display: flex;
+  padding: 1.5rem 8rem;
+}
+
+.planet {
+  border: 0.1rem solid #ccc;
+  border-radius: 0.8rem;
+  overflow: hidden;
+  width: 30rem;
+  margin: 1rem;
+}
+.planet img {
+  height: 20rem;
+  width: 100%;
+}
+.planet p {
+  font-size: 3rem;
+  text-align: center;
+  color: rgb(128, 0, 53);
+  padding: 1rem 0rem;
+}
+
+.about-planet {
+  padding: 2rem 8rem;
+}
+.about-planet h3 {
+  font-size: 5rem;
+  color: rgb(128, 0, 53);
+}
+.about-planet p {
+  font-size: 3rem;
+  padding: 1.5rem 0rem;
+  text-align: justify;
+}
+.about-planet p:hover {
+  color: rgb(124, 30, 1);
+}
+
+.sun {
+  padding: 2rem 8rem;
+}
+.sun h3 {
+  font-size: 5rem;
+  color: rgb(128, 0, 53);
+}
+.sun p {
+  font-size: 3rem;
+  padding: 1.5rem 0rem;
+  text-align: justify;
+}
+.sun p:hover {
+  color: rgb(124, 30, 1);
+}
+
+.celestial-sec {
+  padding: 2rem 8rem;
+}
+.celestial-sec h3 {
+  font-size: 5rem;
+  color: rgb(128, 0, 53);
+}
+.celestial-sec p {
+  font-size: 3rem;
+  padding: 1.5rem 0rem;
+  text-align: justify;
+}
+.celestial-sec p:hover {
+  color: rgb(124, 30, 1);
+}
+.celestial-sec h2 {
+  font-size: 7rem;
+  text-align: center;
+  color: rgb(128, 0, 53);
+  padding: 1.5rem 8rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+footer {
+  background-color: rgb(252, 162, 232);
+}
+footer img {
+  height: 4rem;
+  padding-top: 2rem;
+}
+footer p {
+  font-size: 2rem;
+  text-align: center;
+  padding-bottom: 1rem;
+}/*# sourceMappingURL=style.css.map */
